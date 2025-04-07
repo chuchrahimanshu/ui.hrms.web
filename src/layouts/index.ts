@@ -1,3 +1,4 @@
 import GlobalLayout from "./GlobalLayout";
+import Container from "./Container";
 
-export { GlobalLayout };
+export { GlobalLayout, Container };
