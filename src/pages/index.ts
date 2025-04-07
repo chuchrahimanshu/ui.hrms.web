@@ -6,7 +6,6 @@ import SignUp from "./auth/SignUp";
 import SignIn from "./auth/SignIn";
 import SignOut from "./auth/SignOut";
 import ForgetPassword from "./auth/ForgetPassword";
-import EmailVerification from "./auth/EmailVerification";
 import TwoFactorAuthentication from "./auth/TwoFactorAuthentication";
 
 // DASHBOARD
@@ -22,7 +21,6 @@ import EmployeeCredentials from "./employee/EmployeeCredentials";
 export {
   Home,
   Dashboard,
-  EmailVerification,
   EmployeeCredentials,
   EmployeeDocuments,
   EmployeePersonalInformation,

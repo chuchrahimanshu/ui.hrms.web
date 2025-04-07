@@ -1,4 +1,4 @@
 interface ContainerPropsInterface {
   children: ReactNode;
-  classNames: string;
+  classNames?: string;
 }
