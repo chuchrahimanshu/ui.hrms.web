@@ -1,3 +1,8 @@
-import { SIGNUP_DESCRIPTION, SIGNUP_TITLE } from "./auth.constants";
+import {
+  SignUpFormData,
+  SignInFormData,
+  ForgetPasswordFormData,
+  TFAFormData,
+} from "./auth.constants";
 
-export { SIGNUP_DESCRIPTION, SIGNUP_TITLE };
+export { SignUpFormData, SignInFormData, ForgetPasswordFormData, TFAFormData };

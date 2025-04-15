@@ -1,16 +1,11 @@
-import { CardForm } from "@/components";
-import { TFA_DESCRIPTION, TFA_TITLE } from "@/constants/auth.constants";
+import { AuthFormGenerator } from "@/components";
+import { TFAFormData } from "@/constants";
 import React from "react";
 
 const TwoFactorAuthentication: React.FC = () => {
   return (
     <section className="h-[calc(100vh-100px)] w-full flex items-center justify-center">
-      <CardForm
-        title={TFA_TITLE}
-        description={TFA_DESCRIPTION}
-        cardClassNames="w-[400px]">
-        <p>Hello</p>
-      </CardForm>
+      <AuthFormGenerator data={TFAFormData} />
     </section>
   );
 };

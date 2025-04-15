@@ -4,7 +4,6 @@ import Home from "./home/Home";
 // AUTH
 import SignUp from "./auth/SignUp";
 import SignIn from "./auth/SignIn";
-import SignOut from "./auth/SignOut";
 import ForgetPassword from "./auth/ForgetPassword";
 import TwoFactorAuthentication from "./auth/TwoFactorAuthentication";
 
@@ -28,7 +27,6 @@ export {
   Employees,
   ForgetPassword,
   SignIn,
-  SignOut,
   SignUp,
   TwoFactorAuthentication,
 };
